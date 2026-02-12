@@ -1,0 +1,15 @@
+## KeliMath Release Signing Configuration
+##
+## BU DOSYA TEMPLATE'DİR. GERÇEK DOSYA key.properties OLARAK KOPYALANİP
+## GERÇERLİ DEĞERLERİ GİRİLMELİDİR.
+##
+## DİKKAT: key.properties DOSYASI GIT'E COMMIT EDİLMEMELİDİR!
+##
+## Keystore oluşturmak için:
+## keytool -genkey -v -keystore kelimath-release.keystore -alias kelimath -keyalg RSA -keysize 2048 -validity 10000
+##
+
+storePassword=KEYSTORE_PASSWORD_BURAYA
+keyPassword=KEY_PASSWORD_BURAYA
+keyAlias=kelimath
+storeFile=../kelimath-release.keystore
